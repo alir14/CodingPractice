@@ -40,16 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Enums.cs" />
+    <Compile Include="Interface\INumbersStringDataComponent.cs" />
     <Compile Include="Interface\IProcessNumberBusinessComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NumberToStringEntity\NumberToStringEntity.csproj">
-      <Project>{d96e1f15-a46b-48cd-9440-01bec2df71d9}</Project>
-      <Name>NumberToStringEntity</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

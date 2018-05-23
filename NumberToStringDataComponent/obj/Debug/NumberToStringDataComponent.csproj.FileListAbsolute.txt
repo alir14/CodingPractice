@@ -4,3 +4,11 @@ D:\Temp\NumberToString\NumberToStringDataComponent\bin\Debug\NumberToStringDataC
 D:\Temp\NumberToString\NumberToStringDataComponent\obj\Debug\NumberToStringDataComponent.csprojResolveAssemblyReference.cache
 D:\Temp\NumberToString\NumberToStringDataComponent\obj\Debug\NumberToStringDataComponent.dll
 D:\Temp\NumberToString\NumberToStringDataComponent\obj\Debug\NumberToStringDataComponent.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringDataComponent\bin\Debug\NumberToStringDataComponent.dll
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringDataComponent\bin\Debug\NumberToStringDataComponent.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringDataComponent\obj\Debug\NumberToStringDataComponent.csprojResolveAssemblyReference.cache
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringDataComponent\obj\Debug\NumberToStringDataComponent.csproj.CoreCompileInputs.cache
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringDataComponent\obj\Debug\NumberToStringDataComponent.dll
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringDataComponent\obj\Debug\NumberToStringDataComponent.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringDataComponent\bin\Debug\NumberToStringFramework.dll
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringDataComponent\bin\Debug\NumberToStringFramework.pdb

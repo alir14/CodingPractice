@@ -45,10 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseProcessNumberBusinessComponent.cs" />
     <Compile Include="ClassifyInputNumberBusinessComponent.cs" />
-    <Compile Include="HundredsProcessNumberBusinessComponent.cs" />
+    <Compile Include="Factory\ProcessNumberFactoryManager.cs" />
+    <Compile Include="HundredProcessNumberBusinessComponent .cs" />
     <Compile Include="MillionsProcessNumberBusinessComponent.cs" />
-    <Compile Include="ProcessNumberBusinessComponent.cs" />
+    <Compile Include="ConvertNumberBusinessComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThausandsProcessNumberBusinessComponent.cs" />
   </ItemGroup>

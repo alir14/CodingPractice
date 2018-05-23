@@ -1,17 +1,30 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections.Generic;
+using NumberToStringFramework;
 using NumberToStringFramework.Interface;
 
 namespace NumberToStringBusinessComponent
 {
-    public class MillionsProcessNumberBusinessComponent : IProcessNumberBusinessComponent
+    internal class MillionsProcessNumberBusinessComponent : BaseProcessNumberBusinessComponent, IProcessNumberBusinessComponent
     {
-        public string ProcessGivenGroup(string givenGroup)
+        public MillionsProcessNumberBusinessComponent(INumbersStringDataComponent numbersStringList, string number)
+            : base(numbersStringList, number)
         {
-            throw new NotImplementedException();
         }
+
+        public string ProcessGivenNumber()
+        {
+            var classifier = new ClassifyInputNumberBusinessComponent(base._number, NumberGroupTypeEnums.Millions);
+
+            base._number = classifier.ClassifyGivenNumber();
+
+            return PopulateResult();
+        }
+
+        protected override string PopulateResult()
+        {
+            return string.Format("{0} million ", base.PopulateResult());
+        }
+
+
     }
 }

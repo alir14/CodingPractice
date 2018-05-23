@@ -1,10 +1,7 @@
-﻿using NumberToStringBusinessComponent;
-using NumberToStringFramework;
-using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections.Generic;
+﻿using System;
+using NumberToStringDataComponent;
+using NumberToStringBusinessComponent;
+using NumberToStringFramework.Interface;
 
 namespace NumberToString
 {
@@ -12,22 +9,20 @@ namespace NumberToString
     {
         static void Main(string[] args)
         {
-            test();
+            var input = Console.ReadLine();
+
+            Console.WriteLine(ConverNumberToString(input));
+
+            Console.ReadKey();
         }
 
-        private static void test()
+        private static string ConverNumberToString(string number)
         {
-            var classsfier = new ClassifyInputNumberBusinessComponent(10,NumberGroupTypeEnums.Hundreds);
-            var temp = classsfier.ClassifyGivenNumber();
-            var processor = new HundredsProcessNumberBusinessComponent();
-            processor.ProcessGivenGroup(temp);
+            INumbersStringDataComponent data = new NumbersStringDataComponent();
 
-            //classsfier = new ClassifyInputNumberBusinessComponent(1234567, NumberGroupTypeEnums.Thousands);
-            //temp = classsfier.ClassifyGivenNumber();
+            var converter = new ConvertNumberBusinessComponent(number, data);
 
-            //classsfier = new ClassifyInputNumberBusinessComponent(1234567, NumberGroupTypeEnums.Millions);
-            //temp = classsfier.ClassifyGivenNumber();
-
+            return converter.ConvertNumber();
         }
     }
 }

@@ -11,3 +11,16 @@ D:\Temp\NumberToString\NumberToString\obj\Debug\NumberToString.exe
 D:\Temp\NumberToString\NumberToString\obj\Debug\NumberToString.pdb
 D:\Temp\NumberToString\NumberToString\bin\Debug\NumberToStringDataComponent.dll
 D:\Temp\NumberToString\NumberToString\bin\Debug\NumberToStringDataComponent.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\bin\Debug\NumberToString.exe.config
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\bin\Debug\NumberToString.exe
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\bin\Debug\NumberToString.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\bin\Debug\NumberToStringBusinessComponent.dll
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\bin\Debug\NumberToStringFramework.dll
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\bin\Debug\NumberToStringBusinessComponent.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\bin\Debug\NumberToStringFramework.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\obj\Debug\NumberToString.csprojResolveAssemblyReference.cache
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\obj\Debug\NumberToString.csproj.CoreCompileInputs.cache
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\obj\Debug\NumberToString.exe
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\obj\Debug\NumberToString.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\bin\Debug\NumberToStringDataComponent.dll
+D:\workspace\Practice_Coding\NumberTOString\NumberToString\bin\Debug\NumberToStringDataComponent.pdb

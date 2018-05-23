@@ -6,3 +6,8 @@ D:\Temp\NumberToString\NumberToStringFramework\obj\Debug\NumberToStringFramework
 D:\Temp\NumberToString\NumberToStringFramework\obj\Debug\NumberToStringFramework.csproj.CoreCompileInputs.cache
 D:\Temp\NumberToString\NumberToStringFramework\obj\Debug\NumberToStringFramework.dll
 D:\Temp\NumberToString\NumberToStringFramework\obj\Debug\NumberToStringFramework.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringFramework\bin\Debug\NumberToStringFramework.dll
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringFramework\bin\Debug\NumberToStringFramework.pdb
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringFramework\obj\Debug\NumberToStringFramework.csproj.CoreCompileInputs.cache
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringFramework\obj\Debug\NumberToStringFramework.dll
+D:\workspace\Practice_Coding\NumberTOString\NumberToStringFramework\obj\Debug\NumberToStringFramework.pdb

@@ -1,6 +1,0 @@
-D:\Temp\NumberToString\NumberToStringEntity\bin\Debug\NumberToStringEntity.dll
-D:\Temp\NumberToString\NumberToStringEntity\bin\Debug\NumberToStringEntity.pdb
-D:\Temp\NumberToString\NumberToStringEntity\obj\Debug\NumberToStringEntity.csprojResolveAssemblyReference.cache
-D:\Temp\NumberToString\NumberToStringEntity\obj\Debug\NumberToStringEntity.csproj.CoreCompileInputs.cache
-D:\Temp\NumberToString\NumberToStringEntity\obj\Debug\NumberToStringEntity.dll
-D:\Temp\NumberToString\NumberToStringEntity\obj\Debug\NumberToStringEntity.pdb

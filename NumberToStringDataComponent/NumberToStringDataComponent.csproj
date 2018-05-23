@@ -48,5 +48,11 @@
     <Compile Include="NumbersStringDataComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NumberToStringFramework\NumberToStringFramework.csproj">
+      <Project>{5a3d56e5-b8ef-4c36-bade-f92f92ac36bc}</Project>
+      <Name>NumberToStringFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -56,6 +56,10 @@
       <Project>{4155d358-8636-4e44-9ba1-8f62998e4db2}</Project>
       <Name>NumberToStringBusinessComponent</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NumberToStringDataComponent\NumberToStringDataComponent.csproj">
+      <Project>{42e45fa8-717b-40c9-a4b2-5acecbded892}</Project>
+      <Name>NumberToStringDataComponent</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NumberToStringFramework\NumberToStringFramework.csproj">
       <Project>{5a3d56e5-b8ef-4c36-bade-f92f92ac36bc}</Project>
       <Name>NumberToStringFramework</Name>

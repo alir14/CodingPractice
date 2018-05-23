@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToStringBusinessCompo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToStringFramework", "NumberToStringFramework\NumberToStringFramework.csproj", "{5A3D56E5-B8EF-4C36-BADE-F92F92AC36BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToStringEntity", "NumberToStringEntity\NumberToStringEntity.csproj", "{D96E1F15-A46B-48CD-9440-01BEC2DF71D9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{5A3D56E5-B8EF-4C36-BADE-F92F92AC36BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A3D56E5-B8EF-4C36-BADE-F92F92AC36BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A3D56E5-B8EF-4C36-BADE-F92F92AC36BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D96E1F15-A46B-48CD-9440-01BEC2DF71D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D96E1F15-A46B-48CD-9440-01BEC2DF71D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D96E1F15-A46B-48CD-9440-01BEC2DF71D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D96E1F15-A46B-48CD-9440-01BEC2DF71D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

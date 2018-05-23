@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NumberToStringFramework;
-using System.Collections.Generic;
 
 namespace NumberToStringBusinessComponent
 {
-    public class ClassifyInputNumberBusinessComponent
+    internal class ClassifyInputNumberBusinessComponent
     {
         decimal Number { get; set; }
         NumberGroupTypeEnums Type { get; set; }
 
-        public ClassifyInputNumberBusinessComponent(int number, NumberGroupTypeEnums type)
+        public ClassifyInputNumberBusinessComponent(string number, NumberGroupTypeEnums type)
         {
             Number = Convert.ToDecimal(number);
             Type = type;
@@ -22,9 +18,6 @@ namespace NumberToStringBusinessComponent
         {
             string decimalNum = string.Empty;
 
-            if (Type == NumberGroupTypeEnums.Hundreds)
-                return Number.ToString();
-
             for (int i = 0; i < (int)Type; i++)
             {
                 var tempNumber = (Number / 1000).ToString();
@@ -33,6 +26,16 @@ namespace NumberToStringBusinessComponent
 
                 Number = int.Parse(tempNumber.Split('.')[0]);
             }
+
+            //always return the numbers in group  of 3 
+            if(decimalNum.Length < 3)
+            {
+                while(decimalNum.Length < 3)
+                {
+                    decimalNum = string.Format("{0}0", decimalNum);
+                }
+            }
+
 
             return decimalNum;
         }

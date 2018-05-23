@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using NumberToStringFramework.Interface;
 
 namespace NumberToStringDataComponent
 {
-    public class NumbersStringDataComponent
+    public class NumbersStringDataComponent : INumbersStringDataComponent
     {
         Dictionary<int, string> BaseNumbersString { get; set; }
         Dictionary<int, string> TensNumbersString { get; set; }
@@ -38,7 +39,7 @@ namespace NumberToStringDataComponent
                 {7, "seventyty" },
                 {8, "eighty" },
                 {9, "ninty" },
-                {10, "Ten" },
+                {10, "ten" },
                 {11, "eleven" },
                 {12, "twelve" },
                 {13, "therteen" },
