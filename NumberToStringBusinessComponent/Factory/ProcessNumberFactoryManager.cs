@@ -25,8 +25,8 @@ namespace NumberToStringBusinessComponent.Factory
                     return new ThausandsProcessNumberBusinessComponent(this._numbersStringDataComponent, this._number);
                 case (int)NumberGroupTypeEnums.Millions:
                     return new MillionsProcessNumberBusinessComponent(this._numbersStringDataComponent, this._number);
-                //case NumberGroupTypeEnums.Billions:
-                //    return new BillionsProcessNumberBusinessComponent(this._numbersStringDataComponent, this._number);
+                case (int)NumberGroupTypeEnums.Billions:
+                    return new BillionProcessNumberBusinessComponent(this._numbersStringDataComponent, this._number);
                 default:
                     return null;
             }   

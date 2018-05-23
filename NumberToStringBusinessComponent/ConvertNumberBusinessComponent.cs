@@ -50,7 +50,7 @@ namespace NumberToStringBusinessComponent
         {
             bool result = false;
 
-            if (!string.IsNullOrEmpty(this._number) && int.TryParse(this._number, out int value))
+            if (!string.IsNullOrEmpty(this._number) && long.TryParse(this._number, out long value))
             {
                 result = true;
             }

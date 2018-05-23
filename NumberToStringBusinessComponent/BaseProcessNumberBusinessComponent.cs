@@ -10,12 +10,15 @@ namespace NumberToStringBusinessComponent
     {
         protected string _number;
         INumbersStringDataComponent _numbersStringList;
+        bool skip;
 
         public BaseProcessNumberBusinessComponent(INumbersStringDataComponent numbersStringList, string number)
         {
             this._numbersStringList = numbersStringList;
 
             this._number = number;
+
+            this.skip = false;
         }
 
         protected virtual string ProcessHundreds()
@@ -36,6 +39,7 @@ namespace NumberToStringBusinessComponent
 
             if (Convert.ToInt32(_number.Substring(1, 1)) == 1)
             {
+                this.skip = true;
                 result = _numbersStringList.GetTensNumbersString(Convert.ToInt32(_number.Substring(1, 2)));
             }
             else if (Convert.ToInt32(_number.Substring(1, 1)) > 1)
@@ -50,7 +54,8 @@ namespace NumberToStringBusinessComponent
         {
             string result = string.Empty;
 
-            result = _numbersStringList.GetBaseNumbersString(Convert.ToInt32(_number.Substring(2, 1)));
+            if (!this.skip)
+                result = _numbersStringList.GetBaseNumbersString(Convert.ToInt32(_number.Substring(2, 1)));
 
             return result;
         }
@@ -58,6 +63,7 @@ namespace NumberToStringBusinessComponent
         protected virtual string PopulateResult()
         {
             string result = string.Empty;
+
 
             result = string.Format("{0} {1} {2}", ProcessHundreds(), ProcessTens(), ProcessOnes()).Trim();
 

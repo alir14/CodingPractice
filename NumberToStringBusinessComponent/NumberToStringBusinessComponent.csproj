@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseProcessNumberBusinessComponent.cs" />
+    <Compile Include="BillionProcessNumberBusinessComponent.cs" />
     <Compile Include="ClassifyInputNumberBusinessComponent.cs" />
     <Compile Include="Factory\ProcessNumberFactoryManager.cs" />
     <Compile Include="HundredProcessNumberBusinessComponent .cs" />
