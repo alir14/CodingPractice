@@ -1,0 +1,8 @@
+D:\Temp\NumberToString\NumberToStringFramework\bin\Debug\NumberToStringFramework.dll
+D:\Temp\NumberToString\NumberToStringFramework\bin\Debug\NumberToStringFramework.pdb
+D:\Temp\NumberToString\NumberToStringFramework\bin\Debug\NumberToStringEntity.dll
+D:\Temp\NumberToString\NumberToStringFramework\bin\Debug\NumberToStringEntity.pdb
+D:\Temp\NumberToString\NumberToStringFramework\obj\Debug\NumberToStringFramework.csprojResolveAssemblyReference.cache
+D:\Temp\NumberToString\NumberToStringFramework\obj\Debug\NumberToStringFramework.csproj.CoreCompileInputs.cache
+D:\Temp\NumberToString\NumberToStringFramework\obj\Debug\NumberToStringFramework.dll
+D:\Temp\NumberToString\NumberToStringFramework\obj\Debug\NumberToStringFramework.pdb
