@@ -7,8 +7,8 @@ namespace AzureMessageBus
 {
     class Program
     {
-        const string ServiceBusQueueConnectionString = "Endpoint=sb://alitestservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=/AHt39j9cDmY5PNd02gS7nNbWdMELOx/bf1x17Pk/9w=";
-        const string ServiceBusTopicConnectionString = "Endpoint=sb://mybusservice.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=kdKbSnYX93zhuD35326uoBYFhNtYPj4F+bqzfLQ6CVg=";
+        const string ServiceBusQueueConnectionString = "Endpoint=sb://";
+        const string ServiceBusTopicConnectionString = "Endpoint=sb://";
         const string QueueName = "reinz";
         const string TopicName = "mytopic";
         static IQueueClient queueClient;
